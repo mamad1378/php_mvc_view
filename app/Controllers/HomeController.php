@@ -14,6 +14,6 @@ class HomeController
     
     public function testView()
     {
-        // TODO: Implement
+        return View::render('index', ['message' => 'Hello, World!']);
     }
 }
